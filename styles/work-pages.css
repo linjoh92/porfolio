@@ -1,0 +1,71 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root {
+    --primary-color: #000000;
+    --secondary-color : #ffffff;   
+    --blue-color: #0b25c6;
+    --blue-hover-color: #0c20a4;
+    --orange-color: #ff7900;
+    --grey-color:  #f1f1f1;
+    --light-purpel-color: #9aa8ff;
+}
+
+.work-container{
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 140px 0;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.work-container.school-assigment {
+    margin: 160px 0;
+}
+
+.work-container.personal-page-container {
+    margin: 0 0 60px;
+}
+
+.topic-container{
+    text-align: center;
+}
+
+.work-topic{
+    color: var(--blue-color);
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.work-description{
+    color: var(--orange-color);
+    font-size: 1.3rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .work-container.school-assigment {
+        margin: 100px 0 0;
+    }
+
+}
+
+
+
