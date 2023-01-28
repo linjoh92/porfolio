@@ -249,7 +249,7 @@ header{
     .menu-item-right, .right-menu{
         color: var(--orange-color);
         font-size: 1.5rem;
-        padding: 20px;
+        padding-bottom: 60px;
         text-align: center;
         width: 100%;
     }
